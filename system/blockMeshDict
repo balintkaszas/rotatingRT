@@ -49,7 +49,7 @@ boundary
 (
     floor
     {
-        type wall;
+        type wall rotor;
         faces
         (
             (1 5 4 0)
@@ -57,7 +57,7 @@ boundary
     }
     ceiling
     {
-        type patch;
+        type patch rotor;
         faces
         (
             (3 7 6 2)
@@ -65,7 +65,7 @@ boundary
     }
     fixedWalls
     {
-        type wall;
+        type wall rotor;
         faces
         (
             (0 4 7 3)
